@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8921540-27f0-4843-965d-4d80e9f13ae8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../PIF_webclient/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PIF_webclient/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PIF_webclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PIF_webclient/src/main/java/entity/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PIF_webclient/src/main/java/entity/Name.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PIF_webclient/src/main/java/parser/JsonParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PIF_webclient/src/main/java/requests/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Regex_training/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Regex_training/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Regex_training/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Regex_training/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Regex_training/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/IoCandDependecies/domain/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/IoCandDependecies/domain/implementation/Abonent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/IoCandDependecies/domain/implementation/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/IoCandDependecies/domain/implementation/SmartPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/IoCandDependecies/domain/interfaces/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/IoCandDependecies/domain/interfaces/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/impl/audio/Alpine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/impl/audio/Kenwood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/impl/audio/Sony.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/impl/car/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/impl/car/Kia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/impl/car/Lexus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/impl/navigation/Garmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/impl/navigation/Navitel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/impl/navigation/Pioneer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/interfaces/AudioSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/interfaces/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/java/intro/spring/interfaces/NavigationSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/resources/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/resources/context2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring_course/src/main/resources/services.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../Program Files/Maven" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2ToAhW36GpbemGafAMLMwSpNlfq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "spring",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Spring_Mvc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Spring_Mvc" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8921540-27f0-4843-965d-4d80e9f13ae8" name="Changes" comment="" />
+      <created>1691699179978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691699179978</updated>
+    </task>
+    <servers />
+  </component>
+</project>
