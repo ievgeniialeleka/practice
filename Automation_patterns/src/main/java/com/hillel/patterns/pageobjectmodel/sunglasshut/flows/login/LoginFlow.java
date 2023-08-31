@@ -1,13 +1,15 @@
 package com.hillel.patterns.pageobjectmodel.sunglasshut.flows.login;
 
+import com.hillel.patterns.pageobjectmodel.sunglasshut.abstracttion.AbstractFlow;
 import com.hillel.patterns.pageobjectmodel.sunglasshut.pages.login.LoginPage;
 import org.openqa.selenium.WebDriver;
 
-public class LoginFlow {
+public class LoginFlow extends AbstractFlow {
 
     private LoginPage loginPage;
 
     public LoginFlow(WebDriver webDriver) {
+        super(webDriver);
         this.loginPage = new LoginPage(webDriver);
     }
 

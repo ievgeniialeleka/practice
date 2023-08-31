@@ -1,9 +1,11 @@
 package com.hillel.patterns.pageobjectmodel.sunglasshut.pages.login;
 
 import com.hillel.patterns.pageobjectmodel.sunglasshut.abstracttion.AbstractPage;
+import com.hillel.patterns.pageobjectmodel.sunglasshut.utils.WaiterManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class LoginPage extends AbstractPage {
 
@@ -20,11 +22,14 @@ public class LoginPage extends AbstractPage {
     }
 
     public WebElement getLOGIN_FIELD() {
-        return driver.findElement(LOGIN_FIELD);
+        return driverWait.until(ExpectedConditions.visibilityOfElementLocated(LOGIN_FIELD));
+       // driver.findElement(LOGIN_FIELD);
     }
 
     public WebElement getPASSWORD_FIELD() {
-        return driver.findElement(PASSWORD_FIELD);
+
+        return WaiterManager.waitUntilElementIsVisible(driver, PASSWORD_FIELD);
+                //driver.findElement(PASSWORD_FIELD);
     }
 
     public WebElement getLOGIN_BUTTON() {

@@ -1,5 +1,6 @@
 package com.hillel.patterns.pageobjectmodel.sunglasshut.flows.commonflows;
 
+import com.hillel.patterns.pageobjectmodel.sunglasshut.abstracttion.AbstractFlow;
 import com.hillel.patterns.pageobjectmodel.sunglasshut.pages.commonfragments.HeaderMenu;
 import org.openqa.selenium.WebDriver;
 
@@ -13,5 +14,9 @@ public class HeaderFlow {
 
     public void navigateToLogin() {
         headerMenu.getLoginIcon().click();
+    }
+
+    public boolean isLoginIconDisplayed() {
+        return headerMenu.getLoginIcon().isDisplayed();
     }
 }

@@ -22,7 +22,8 @@ class LoginFlowTest {
         loginPage = new LoginPage(driver);
         loginFlow = new LoginFlow(driver);
         driver.manage().window().maximize();
-        driver.navigate().to("https://www.sunglasshut.com/uk/myaccount/login?redirect=%2Fmyaccount");
+        driver.navigate().to("https://www.sunglasshut.com/uk");
+//        driver.navigate().to("https://www.sunglasshut.com/uk/myaccount/login?redirect=%2Fmyaccount");
        // loginPage.getPOPUP().click();
         closeCountryPopup(driver);
         acceptCookies(driver);
@@ -43,6 +44,12 @@ class LoginFlowTest {
         loginFlow.login("someemail@gmail.com", "");
         Assertions.assertEquals("This field is required", loginPage.getPASSWORD_ERROR().getText());
         loginFlow.navigateToRegistrationPage();
+    }
+
+    @Test
+    void testLoginNavigation() {
+        loginFlow.getHeaderFlow().navigateToLogin();
+        Assertions.assertTrue(driver.getCurrentUrl().contains("myaccount"));
     }
 
     @AfterAll

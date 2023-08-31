@@ -48,6 +48,20 @@ public class RegistrationFlowTest {
         Assertions.assertEquals(pageTitle, registrationFlow.getPageTitle());
     }
 
+    @Test
+    void testRegistrationFields() throws InterruptedException {
+        loginFlow.navigateToRegistrationPage();
+        Thread.sleep(1000);
+        Assertions.assertTrue(registrationFlow.isEmailFieldDisplayed());
+    }
+
+    @Test
+    void testRegistrationFields2() throws InterruptedException {
+        loginFlow.navigateToRegistrationPage();
+        Thread.sleep(1000);
+        Assertions.assertTrue(registrationFlow.isEmailFieldDisplayed());
+    }
+
     @AfterAll
     static void tearDown() {
         driver.quit();
